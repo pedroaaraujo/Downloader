@@ -1,0 +1,37 @@
+object Form1: TForm1
+  Left = 284
+  Height = 69
+  Top = 250
+  Width = 469
+  Caption = 'Form1'
+  ClientHeight = 69
+  ClientWidth = 469
+  OnCreate = FormCreate
+  object btnBaixar: TButton
+    Left = 376
+    Height = 25
+    Top = 8
+    Width = 83
+    Caption = 'Baixar'
+    OnClick = btnBaixarClick
+    TabOrder = 0
+  end
+  object edtUrl: TEdit
+    Left = 8
+    Height = 23
+    Top = 10
+    Width = 360
+    TabOrder = 1
+  end
+  object pgbProgresso: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 40
+    Width = 451
+    TabOrder = 2
+  end
+  object SaveDialog1: TSaveDialog
+    left = 320
+    top = 8
+  end
+end
